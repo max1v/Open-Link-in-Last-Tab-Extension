@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Open Link at End",
+  "version": "1.0",
+  "description": "Open a link at the last tab of the current window via context menu",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
