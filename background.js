@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "openLinkAtEnd",
-    title: "Open Link at End",
+    title: "Open in Last Tab",
     contexts: ["link"]
   });
 });
