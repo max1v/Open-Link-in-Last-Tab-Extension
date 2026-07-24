@@ -29,19 +29,50 @@ Permissions explained:
 ## Category
 Productivity
 
-## Screenshots
-- At least 1 screenshot (1280x800 or 640x400 PNG)
-- Show the right-click context menu with "Open in Last Tab" highlighted
-- Consider a second screenshot showing the tab at the end of the strip
+## Store Assets (in store-assets/ folder)
 
-## Icon
-Already included in the extension package (16, 48, 128 PNG).
+| Asset | File | Required |
+|-------|------|----------|
+| Extension logo (300x300) | `logo-300x300.png` | Yes (min 128x128) |
+| Screenshot (1280x800) | `screenshot-1280x800.png` | Yes |
+| Small promo tile (440x280) | `promo-tile-440x280.png` | Recommended |
+| Large promo tile (1400x560) | `promo-tile-1400x560.png` | Optional |
 
-## Small promotional tile (optional but recommended)
-440x280 PNG — use promo-tile-440x280.png from this repo.
+## Privacy page — Single Purpose Description
+Paste this into the **Single Purpose Description** field:
+> This extension lets users right-click any hyperlink and open it at the last (rightmost) position of the current browser window's tab strip. It does nothing else. It does not collect, store, or transmit any data.
 
-## Privacy policy URL
+## Privacy page — Permission Justifications
+Paste these into the respective fields:
+
+**contextMenus**: Required to add the "Open in Last Tab" item to the browser's right-click context menu when the user right-clicks a link. Without this permission, there is no way to trigger the extension.
+
+**tabs**: Required to count the number of open tabs in the current window. The count is used to set the index of the new tab to `tabs.length`, placing it at the very end of the tab strip. Only the tab count is read — no tab URLs, titles, or content are accessed.
+
+## Privacy page — Remote Code
+Select **No, I am not using remote code**.
+
+## Privacy page — Data Usage
+- **What user data do you plan to collect?** — Select nothing (none).
+- **Certifications** — Select all four:
+  - I collect data to enable a specific feature...
+  - I only transfer data...
+  - I only use data...
+  - I comply with all policies...
+
+## Privacy page — Privacy Policy URL
+```
 https://github.com/max1v/Open-Link-in-Last-Tab-Extension/blob/main/PRIVACY.md
+```
 
-## Website URL (optional)
-https://github.com/max1v/Open-Link-in-Last-Tab-Extension
+## Properties page
+- **Category**: Productivity
+- **Website**: https://github.com/max1v/Open-Link-in-Last-Tab-Extension
+- **Support contact**: https://github.com/max1v/Open-Link-in-Last-Tab-Extension/issues
+- **Mature content**: No
+
+## Search terms (optional)
+`tab, open tab, end tab, last tab, link, context menu, right click, tab position, organize tabs`
+
+## Notes for certification
+> No special setup required. Install the extension, right-click any link on any page, and select "Open in Last Tab". The link opens at the rightmost position of the tab strip.
