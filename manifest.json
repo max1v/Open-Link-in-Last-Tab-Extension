@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Open Link at End",
+  "name": "Open in Last Tab",
+  "short_name": "Open Last Tab",
   "version": "1.0",
-  "description": "Open a link at the last tab of the current window via context menu",
+  "description": "Right-click a link and open it at the very end of your tab strip — not next to the current tab.",
   "permissions": ["contextMenus", "tabs"],
   "background": {
     "service_worker": "background.js"
