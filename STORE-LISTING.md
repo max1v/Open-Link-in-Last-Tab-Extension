@@ -41,7 +41,7 @@ Already included in the extension package (16, 48, 128 PNG).
 440x280 PNG — use promo-tile-440x280.png from this repo.
 
 ## Privacy policy URL
-https://github.com/YOUR_USERNAME/open-in-last-tab/blob/main/PRIVACY.md
+https://github.com/max1v/Open-Link-in-Last-Tab-Extension/blob/main/PRIVACY.md
 
 ## Website URL (optional)
-https://github.com/YOUR_USERNAME/open-in-last-tab
+https://github.com/max1v/Open-Link-in-Last-Tab-Extension

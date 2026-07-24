@@ -31,14 +31,14 @@ No data is collected, stored, or transmitted. See [PRIVACY.md](PRIVACY.md).
 [Get it from Edge Add-ons](https://microsoftedge.microsoft.com/addons/) (coming soon)
 
 ### Manual (developer mode)
-1. Download the [latest ZIP](https://github.com/YOUR_USERNAME/open-in-last-tab/releases)
+1. Download the [latest ZIP](https://github.com/max1v/Open-Link-in-Last-Tab-Extension/releases)
 2. Go to `edge://extensions` and enable **Developer mode**
 3. Drag and drop the ZIP onto the page
 
 ## Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/open-in-last-tab.git
+git clone https://github.com/max1v/Open-Link-in-Last-Tab-Extension.git
 cd open-in-last-tab
 ```
 Load the folder as an unpacked extension at `edge://extensions`.

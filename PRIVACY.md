@@ -19,4 +19,4 @@ This extension does not collect, store, transmit, or share any personal data or 
 ## Contact
 
 If you have questions, open an issue on the GitHub repository at:
-https://github.com/YOUR_USERNAME/open-in-last-tab
+https://github.com/max1v/Open-Link-in-Last-Tab-Extension
